@@ -74,7 +74,7 @@ Start with [Quick start](docs/QUICKSTART.md), [Setup details](docs/SETUP.md), [S
 
 **Source:** [working v4.7 controller](Source/v4.7/JazzPCController.uc), [experimental v4.8 mouse controller](Source/v4.8/JazzPCController.uc), and [portable build tools](tools/).
 
-**Issues:** [v4.8 mouse input](../../issues/1), [third-person camera](../../issues/2), [clean-PC validation](../../issues/3).
+**Issues:** [v4.8 mouse input](https://github.com/JakX2/jazz-udk-pc-standalone/issues/1), [third-person camera](https://github.com/JakX2/jazz-udk-pc-standalone/issues/2), [clean-PC validation](https://github.com/JakX2/jazz-udk-pc-standalone/issues/3).
 
 ## Legal and distribution
 
