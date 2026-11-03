@@ -72,7 +72,7 @@ Treat these as test observations, **not** a complete static dependency audit of 
 
 Start with [Quick start](docs/QUICKSTART.md), [Setup details](docs/SETUP.md), [Status](docs/STATUS.md), and [Development history](history/RELEASES.md).
 
-**Source:** [working v4.7 controller](Source/v4.7/JazzPCController.uc), [experimental v4.8 mouse controller](Source/v4.8/JazzPCController.uc), and [portable build tools](tools/).
+**Source:** [working v4.7 controller](Source/v4.7/JazzPCController.uc), [experimental v4.8](Source/v4.8/JazzPCController.uc), [v4.8.1 diagnostic revision](Source/v4.8.1/JazzPCController.uc), and [portable/build tools](tools/). See the [v4.8.1 mouse test guide](docs/TEST_V481.md).
 
 **Issues:** [v4.8 mouse input](https://github.com/JakX2/jazz-udk-pc-standalone/issues/1), [third-person camera](https://github.com/JakX2/jazz-udk-pc-standalone/issues/2), [clean-PC validation](https://github.com/JakX2/jazz-udk-pc-standalone/issues/3).
 
