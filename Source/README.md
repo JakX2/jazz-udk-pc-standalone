@@ -1,6 +1,6 @@
 # JazzPC UnrealScript
 
-The Caster classes here are **community-authored modifications**, not original Epic source. Use them only with a separately acquired December 2010 UDK installation.
+The classes here are **community-authored modifications**, not original Epic source. Use them only with a separately acquired December 2010 UDK installation.
 
 - [v4.7/JazzPCController.uc](v4.7/JazzPCController.uc): **verified WASD movement** (including diagonals), based on `MoveZone` events.
 - [v4.8/JazzPCController.uc](v4.8/JazzPCController.uc): experimental simulated-mouse/touch callback. Not verified on the target Windows runtime yet.
