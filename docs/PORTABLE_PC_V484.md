@@ -14,7 +14,7 @@ It preserves KismetGame_Assets.upk, Castle_Assets.upk, CastleAudio.upk, and E3_D
 ## Quick start
 
 1. Keep a backup of the successful v4.8.4 compiled controller and the working slim build.
-2. Extract the source-only JazzUDK_PC_Portable_Builder_v1.zip provided in the development conversation to any normal folder (not inside UDK).
+2. Extract the source-only JazzUDK_PC_Portable_Builder_v1_1_FIXED.zip provided in the development conversation to any normal folder (not inside UDK).
 3. Run Build_Jazz_PC_Portable.cmd and provide folder locations if prompted.
 4. Launch Play_Jazz_PC.cmd from the newly created folder. Test WASD, firing, hidden joystick art and disabled left touch movement.
 5. Launch Play_Jazz_Original.cmd to verify the original 2010 mode still works.
@@ -26,7 +26,7 @@ The builder never edits or deletes source UDK/slim folders. It does not compile 
 
 - Native mouse aiming and held left-click firing remain experimental.
 - Third-person camera remains unimplemented.
-- The script itself still needs a Windows execution test.
+- The v1.0 script failed to parse at line 190 because `$name:` was an invalid interpolated PowerShell variable reference. v1.1 fixes it as `${name}:` and validates script syntax before copying. The updated builder still needs a Windows end-to-end test.
 - Running outside the editor on the original developer PC is verified; a second clean Windows PC still needs a full portability check.
 - The locally generated output contains third-party UDK/Jazz assets. Do not publicly redistribute without permission.
 
