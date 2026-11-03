@@ -14,10 +14,13 @@ The project aims to keep the **original Unreal Engine 3 gameplay, art, music, Ki
 | Editor-free Windows launch with `Binaries\Win32\UDKMobile.exe` and `-simmobile` | Verified |
 | Separate portable Windows folder | Tested by project owner |
 | Slim portable build (~970 MB in the tested setup) | Tested by project owner |
+| Clean v1.0 portable release packager | Created; Windows end-to-end test pending |
 | Original ES2 textures and enemy materials | Verified |
 | Custom `JazzPC` UnrealScript game/controller | Compiled and loaded successfully |
-| WASD movement, including diagonals | **Working in v4.7** |
-| Console-triggered shooting | Working |
+| WASD movement, including diagonals | **User tested through v4.8.4** |
+| F9 / controller-triggered shooting | Previously working |
+| Virtual joystick visuals hidden in PC edition | **User tested (v4.8.3)** |
+| Hidden left touch movement disabled | **User tested (v4.8.4)** |
 | Mouse aiming and held left-click firing (v4.8) | **Experimental; unverified** |
 | Third-person camera | Not implemented |
 | Native Android port | Not implemented |
@@ -62,17 +65,20 @@ From the tested portable build:
 
 Treat these as test observations, **not** a complete static dependency audit of all UE3 packages.
 
+## Version 1.0 milestone
+
+**Jazz UDK PC Edition v1.0** is the first clean, locally assembled Windows release layout, built from the user's working v4.8.4 PC portable folder. It retains separate enhanced and original launchers, preserves original assets, moves old helpers under `Tools/Legacy`, and verifies the existing controller and map hashes. The release packager has passed static/archive checks, but its Windows end-to-end build and clean-machine portability are still pending. See [v1.0 release notes](docs/V1_0_RELEASE.md).
+
 ## Status and next steps
 
-1. Preserve the verified v4.7 WASD controller as the stable baseline.
-2. Compile/test v4.8 mouse callbacks without breaking v4.7.
-3. Add full held-click firing, mouse aiming and eventually optional third-person camera.
-4. Verify the portable game on a clean Windows installation and document runtime prerequisites.
-5. Explore Android only as a separate, longer-term porting effort.
+1. Preserve user-tested JazzPC v4.8.4 while completing v1.0 package verification.
+2. Confirm F10/F11 toggles and test the v1.0 folder on a second Windows PC.
+3. Continue native cursor aiming and held left-click firing, without regressing keyboard controls.
+4. Consider optional third-person camera and separately research Android feasibility.
 
 Start with [Quick start](docs/QUICKSTART.md), [Setup details](docs/SETUP.md), [Status](docs/STATUS.md), and [Development history](history/RELEASES.md).
 
-**Source:** [working v4.7 controller](Source/v4.7/JazzPCController.uc), [experimental v4.8](Source/v4.8/JazzPCController.uc), [v4.8.1 diagnostic revision](Source/v4.8.1/JazzPCController.uc), and [portable/build tools](tools/). See the [v4.8.1 mouse test guide](docs/TEST_V481.md). [v4.8.3 touch-stick visibility](docs/HIDE_TOUCH_V483.md) hides joystick graphics without disabling original touch zones.
+**Source:** [v4.8.4 controller](Source/v4.8.4/JazzPCController.uc), [working v4.7 controller](Source/v4.7/JazzPCController.uc), [experimental v4.8](Source/v4.8/JazzPCController.uc), [v4.8.1 diagnostic revision](Source/v4.8.1/JazzPCController.uc), and [portable/build tools](tools/). See the [v4.8.1 mouse test guide](docs/TEST_V481.md). [v4.8.3 touch-stick visibility](docs/HIDE_TOUCH_V483.md) hides joystick graphics without disabling original touch zones.
 
 **Issues:** [v4.8 mouse input](https://github.com/JakX2/jazz-udk-pc-standalone/issues/1), [third-person camera](https://github.com/JakX2/jazz-udk-pc-standalone/issues/2), [clean-PC validation](https://github.com/JakX2/jazz-udk-pc-standalone/issues/3).
 
