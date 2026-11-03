@@ -22,6 +22,7 @@ Last updated: 2026-11-03.
 | v4.8.1 controlled mouse diagnostic | Adds synthetic LookZone trigger to distinguish Kismet activation from physical mouse/touch callbacks | **ZIP/source created; compilation and gameplay unverified** |
 | v4.8.2 compile fix | Replaces `vector2D` concatenation with separate X/Y values in three logging lines; removes unused `MouseDY` | **Source patched, Windows compile still pending** |
 | v4.8.3 joystick visibility | Invisible touch joystick artwork with left touch movement still active, as intended; F10 toggle and other regressions remain unverified | **User tested successfully after direct-build retry** |
+| v4.8.4 touch movement blocking | Installs a filter on left `MoveZone` touch processing, keeps keyboard Kismet movement and right zone intact, F11 toggle | **Source packaged; Windows compilation/input blocking not yet tested** |
 | Third-person camera | Planned optional feature | Not implemented |
 | Android port | Feasibility research only | Not implemented |
 
