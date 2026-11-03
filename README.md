@@ -67,7 +67,7 @@ Treat these as test observations, **not** a complete static dependency audit of 
 
 ## Version 1.0 milestone
 
-**Jazz UDK PC Edition v1.0** is the first clean, locally assembled Windows release layout, built from the user's working v4.8.4 PC portable folder. It retains separate enhanced and original launchers, preserves original assets, moves old helpers under `Tools/Legacy`, and verifies the existing controller and map hashes. The release packager has passed static/archive checks, but its Windows end-to-end build and clean-machine portability are still pending. See [v1.0 release notes](docs/V1_0_RELEASE.md).
+**Jazz UDK PC Edition v1.0** is the first clean, locally assembled Windows release layout, now built **directly from the full December 2010 UDK** with locally compiled v4.8.4. It needs no prior slim/portable folder. It keeps the enhanced and original launchers, essential original assets, and SHA-256 verification of compiled controller and map copies. The release packager has passed static/archive checks, but its Windows end-to-end build and clean-machine portability are still pending. See [v1.0 release notes](docs/V1_0_RELEASE.md).
 
 ## Status and next steps
 
