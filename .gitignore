@@ -1,0 +1,43 @@
+# Original proprietary game and engine content (never commit)
+*.upk
+*.udk
+*.mobile
+*.u
+*.dll
+*.exe
+*.stub
+*.bik
+*.mp3
+*.m4v
+*.fla
+*.pdb
+*.obj
+*.lib
+
+# Archives, redistributables and local builds
+*.zip
+*.7z
+*.rar
+*.msi
+UDKGame/
+MobileGame/
+Engine/
+Binaries/
+JazzUDK_Portable/
+JazzUDK_Slim_Test/
+JazzUDK_Ultra_Test/
+_JazzPCMod/
+
+# Logs, personal paths and generated diagnostics
+*.log
+*Diagnostic*.txt
+*Diagnostics*.txt
+Jazz*Report*.txt
+Jazz_Size_Audit.txt
+JazzPC_Compile_Log.txt
+*.bak
+*.backup
+*.tmp
+*.old
+.DS_Store
+Thumbs.db
