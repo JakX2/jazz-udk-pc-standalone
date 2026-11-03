@@ -19,6 +19,7 @@ Last updated: 2026-11-03.
 | v4.5 movement diagnostics | Direction/state output reached Kismet but `StickStrength=1.0` did not visibly move Jazz | **User logs** |
 | v4.7 movement | Raising MoveZone strength (default 120) enabled WASD in all directions including diagonals | **User tested** |
 | v4.8 mouse controls | Experimental mobile touch callback bridge | **Not yet tested / unverified** |
+| v4.8.1 controlled mouse diagnostic | Adds synthetic LookZone trigger to distinguish Kismet activation from physical mouse/touch callbacks | **ZIP/source created; compilation and gameplay unverified** |
 | Third-person camera | Planned optional feature | Not implemented |
 | Android port | Feasibility research only | Not implemented |
 
