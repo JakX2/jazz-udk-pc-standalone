@@ -23,6 +23,7 @@ Last updated: 2026-11-03.
 | v4.8.2 compile fix | Replaces `vector2D` concatenation with separate X/Y values in three logging lines; removes unused `MouseDY` | **Source patched, Windows compile still pending** |
 | v4.8.3 joystick visibility | Invisible touch joystick artwork with left touch movement still active, as intended; F10 toggle and other regressions remain unverified | **User tested successfully after direct-build retry** |
 | v4.8.4 touch movement blocking | Suppresses invisible left `MoveZone` touch movement; intended WASD-preserving design and F11 toggle | **User reports working on Windows; F10/F11 regression tests pending** |
+| PC Edition v1.0 packaging | Clean release folder from user-tested v4.8.4 portable, with two launchers and Tools/Legacy organization | **Builder ZIP/static checks passed; Windows end-to-end and clean-PC tests pending** |
 | Third-person camera | Planned optional feature | Not implemented |
 | Android port | Feasibility research only | Not implemented |
 
