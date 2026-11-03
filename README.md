@@ -70,7 +70,11 @@ Treat these as test observations, **not** a complete static dependency audit of 
 4. Verify the portable game on a clean Windows installation and document runtime prerequisites.
 5. Explore Android only as a separate, longer-term porting effort.
 
-See [docs/SETUP.md](docs/SETUP.md) and [docs/STATUS.md](docs/STATUS.md).
+Start with [Quick start](docs/QUICKSTART.md), [Setup details](docs/SETUP.md), [Status](docs/STATUS.md), and [Development history](history/RELEASES.md).
+
+**Source:** [working v4.7 controller](Source/v4.7/JazzPCController.uc), [experimental v4.8 mouse controller](Source/v4.8/JazzPCController.uc), and [portable build tools](tools/).
+
+**Issues:** [v4.8 mouse input](../../issues/1), [third-person camera](../../issues/2), [clean-PC validation](../../issues/3).
 
 ## Legal and distribution
 
