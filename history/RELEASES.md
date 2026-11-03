@@ -18,6 +18,8 @@ These were iterative local experiments, **not** public binary releases. Old help
 | v4.5-v4.6 | Diagnosed controller movement and forced script recompilation. |
 | **v4.7** | **Verified WASD movement** by applying suitable MoveZone strength (default 120). |
 | **v4.8** | **Experimental mouse input** via MobilePlayerInput touch callback, awaiting a Windows compile and gameplay test. |
+| **v4.8.1** | Added `JazzMouseSimDown`/`JazzMouseSimUp` controlled Kismet diagnostic; compiler reported 3 `vector2D` string concatenation errors and 1 unused variable warning. |
+| **v4.8.2** | Replaced direct `vector2D` string concatenations with individual `.X`/`.Y` numeric fields, removed unused `MouseDY`; **Windows build/test pending**. |
 
 ## Lessons learned
 
