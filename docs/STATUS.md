@@ -21,7 +21,7 @@ Last updated: 2026-11-03.
 | v4.8 mouse controls | Experimental mobile touch callback bridge | **Not yet tested / unverified** |
 | v4.8.1 controlled mouse diagnostic | Adds synthetic LookZone trigger to distinguish Kismet activation from physical mouse/touch callbacks | **ZIP/source created; compilation and gameplay unverified** |
 | v4.8.2 compile fix | Replaces `vector2D` concatenation with separate X/Y values in three logging lines; removes unused `MouseDY` | **Source patched, Windows compile still pending** |
-| v4.8.3 joystick visibility | Sets `bIsInvisible` for Kismet `MoveZone` and `LookZone`, reversible with F10; untouched original HUD/map | **Packaged; Windows test pending** |
+| v4.8.3 joystick visibility | Sets `bIsInvisible` for `MoveZone` / `LookZone`, reversible with F10 | **Initial compiler wrapper timed out and restored the previous controller; direct compile test pending** |
 | Third-person camera | Planned optional feature | Not implemented |
 | Android port | Feasibility research only | Not implemented |
 
