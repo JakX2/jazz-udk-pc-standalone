@@ -20,6 +20,7 @@ Last updated: 2026-11-03.
 | v4.7 movement | Raising MoveZone strength (default 120) enabled WASD in all directions including diagonals | **User tested** |
 | v4.8 mouse controls | Experimental mobile touch callback bridge | **Not yet tested / unverified** |
 | v4.8.1 controlled mouse diagnostic | Adds synthetic LookZone trigger to distinguish Kismet activation from physical mouse/touch callbacks | **ZIP/source created; compilation and gameplay unverified** |
+| v4.8.2 compile fix | Replaces `vector2D` concatenation with separate X/Y values in three logging lines; removes unused `MouseDY` | **Source patched, Windows compile still pending** |
 | Third-person camera | Planned optional feature | Not implemented |
 | Android port | Feasibility research only | Not implemented |
 
