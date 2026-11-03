@@ -8,12 +8,12 @@
 
 - Standalone editor-free Windows launcher using `Binaries/Win32/UDKMobile.exe`, `-simmobile` and the copied `JazzMiniGame_PC.mobile` map.
 - Separate original 2010 demo launcher using `JazzMiniGame.mobile` without selecting `JazzPC.JazzPCGame`.
-- The user-tested v4.8.4 compiled controller copied **locally** from the full December 2010 UDK installation, not rebuilt by the v1.0 packager.
+- Bundled **source-only v4.8.4 JazzPC controller and JazzPCGame**. On a first-time installation the UDK compiler creates `JazzPC.u` in the new output folder. If a matching compiled package already exists locally, the builder may reuse it.
 - Preserved `KismetGame_Assets.upk`, `Castle_Assets.upk`, `CastleAudio.upk` and `E3_Demo.upk` for sky fidelity.
 - Clean release root: `Play Jazz PC.cmd`, `Play Jazz Original.cmd`, `README.txt`, `Tools/` and original engine/game folders.
 - Debug launcher, file/hash verifier, release manifest and build log tucked into `Tools/`.
 
-The **direct UDK builder, revision 1.2**, creates a new directory beside the full UDK installation without altering it. No earlier portable folder or portable-build manifest is required. It verifies the installed controller's v4.8.4 feature markers and SHA-256 checks that original/PC maps and the compiled `JazzPC.u` were copied unchanged.
+The **first-time UDK builder, revision 1.3**, creates a new directory beside the full UDK installation without altering it. No earlier portable build, compiled JazzPC mod, or prior manifest is required. It can extract the original Jazz tutorial ZIP into the copied game, duplicate the original map as `JazzMiniGame_PC.mobile`, compile the bundled community-written mod, and verify the resulting package and maps. Existing known-good v4.8.4 compilation can be reused to speed up local builds.
 
 ## Build instructions
 
@@ -41,8 +41,8 @@ The **direct UDK builder, revision 1.2**, creates a new directory beside the ful
 ## Verification and limitations
 
 - The original Windows game and v4.8.4 controller behavior were reported working by the project owner.
-- **Direct-UDK builder ZIP integrity, source-version markers, structural and static checks passed.**
-- **The v1.0 packager and clean-machine portability have not yet been tested end-to-end under Windows.** This is a packaging milestone, not proof of compatibility with every PC.
+- **First-time builder ZIP integrity, bundled v4.8.4 source checksum and structural/static checks passed.**
+- **The first-time v1.3 compile/assembly path and clean-machine portability have not yet been tested end-to-end under Windows.** This is a packaging milestone, not proof of compatibility with every PC.
 - Source-only repository. Do not publicly distribute original Epic/UDK binaries, maps, media, or compiled game files without the rights holders' permission.
 
 Next work: complete a Windows v1.0 package test, check F10/F11, inspect clean-machine prerequisites, then advance the native mouse aiming issue separately.
